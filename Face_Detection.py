@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-faceCascade = cv2.CascadeClassifier(r'Path of XML file')
+faceCascade = cv2.CascadeClassifier(r'Path of file.xml')
 
 cap = cv2.VideoCapture(0)
 cap.set(3,640) # set Width
