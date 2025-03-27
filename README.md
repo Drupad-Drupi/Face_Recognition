@@ -23,7 +23,7 @@ pip install opencv-python numpy pillow
 3. **face_detection.py** - Detects faces in real-time using Haar cascades.
 4. **face_reconize.py** - Recognizes trained faces using the model.
 5. **face_trainer.py** - Trains the face recognition model based on collected data.
-6. **haarcascade_frontalface_default.xml** - Pre-trained XML file for detecting faces.
+6. **haarcascade_frontalface_default.xml** - Pre-trained XML file for detecting faces (ensure the correct file path is provided in the scripts).
 
 ## Usage
 
@@ -57,6 +57,7 @@ This will open a camera window and attempt to recognize stored faces.
 - Ensure good lighting conditions for better recognition.
 - The more images collected, the better the accuracy.
 - You can modify `haarcascade_frontalface_default.xml` with a different Haar cascade if needed.
+- **Make sure the correct XML file path is provided in the scripts to avoid errors.**
 
 ## License
 This project is open-source and free to use.
